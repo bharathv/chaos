@@ -15,6 +15,11 @@
             "hist_readers": 2
         }
     },
+    "settings": {
+	    "log-level": {
+		    "default": "trace"
+	    }
+    },
     "fault": {
         "name": "reconfigure_313",
         "timeout_s": 60,
@@ -25,4 +30,5 @@
         { "name": "redpanda_process_liveness" },
         { "name": "progress_during_fault", "min-delta": 100 }
     ]
+
 }
