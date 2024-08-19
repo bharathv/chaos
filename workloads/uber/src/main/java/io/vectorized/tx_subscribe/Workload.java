@@ -868,7 +868,7 @@ public class Workload {
         // default value: 50
         props.put(ProducerConfig.RECONNECT_BACKOFF_MS_CONFIG, 50);
         // default value: 30000
-        props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, 16000);
+        props.put(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG, 8000);
         // default value: 100
         props.put(ProducerConfig.RETRY_BACKOFF_MS_CONFIG, 100);
         // default value: 300000
